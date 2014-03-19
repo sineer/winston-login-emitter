@@ -1,0 +1,35 @@
+{
+  "name": "winston-logio-emitter",
+  "version": "0.1.0",
+  "description": "A Log.io transport for winston (use emitter instead of sockets)",
+  "main": "./lib/winston-logio-emitter",
+  "homepage": "https://github.com/sineer/winston-logio-emitter",
+  "scripts": {
+    "test": "mocha test/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sineer/winston-logio-emitter.git"
+  },
+  "dependencies": {
+    "winston": ">=0.6.2"
+  },
+  "devDependencies": {
+    "mocha": ">=1.8.2",
+    "chai": ">=1.5.0",
+    "timekeeper": ">=0.0.3"
+  },
+  "keywords": [
+    "logging",
+    "sysadmin",
+    "tools"
+  ],
+  "bugs": {
+    "url": "https://github.com/sineer/winston-logio-emitter/issues"
+  },
+  "author": {
+    "name": "Jeremie Plante",
+    "email": "j@war.io"
+  },
+  "license": "MIT"
+}
